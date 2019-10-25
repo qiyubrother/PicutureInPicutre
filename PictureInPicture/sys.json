@@ -1,0 +1,70 @@
+﻿{
+  "Screen": {
+    "MainWindowsScreenNo": 0, /* 主控屏屏-屏幕编号 */
+    "PromptWindowsScreenNo": 1, /* 提示屏-屏幕编号 */
+    "EBlackboardWindowsScreenNo": 1 /* 电子白板屏-屏幕编号 */
+  },
+  "ScreenList": [
+    {
+      "ScreenNo": 0,
+      "DeviceName": "\\\\.\\DISPLAY8"
+    },
+    {
+      "ScreenNo": 1,
+      "DeviceName": "\\\\.\\DISPLAY10"
+    },
+    {
+      "ScreenNo": 2,
+      "DeviceName": "\\\\.\\DISPLAY1"
+    }
+  ],
+
+  "PictureInPicture": [
+    {
+      "VideoNo": 0,
+      "Width": 320,
+      "Height": 180,
+      "Left": 200,
+      "Top": 400
+    },
+    {
+      "VideoNo": 1,
+      "Width": 320,
+      "Height": 180,
+      "Left": 200,
+      "Top": 400
+    }
+  ],
+  "VideoScreenMapCSharpScreen": { /* 视频组件需要的屏幕索引与CSharp主程序的屏幕索引映射 */
+    "0": 0,
+    "1": 1,
+    "2": 2
+  },
+  "Video": {
+    "TeacherVideoNo": 0, /* 主讲老师摄像机-索引号 */
+    "StudentVideoNo": 1, /* 学生摄像机-索引号 */
+    "ClassRoomVideoNo": 2, /* 学生摄像机-索引号 */
+    "ObjectVideoNo": 0, /* 实物摄像头-索引号 */
+
+    "VideoDisplayName": "Liuzhenhua"
+  },
+
+  /* 登录地点 */
+  "SignInLocation": {
+    "No": 32, /* 位置编号 */
+    "Description": "主播室" /* 位置描述 */
+  },
+
+  /* 定义屏幕描述提示时间 */
+  "ScreenDescription": {
+    "MainWindowsScreenNo": 1800, /* 主控屏屏-提示时间 */
+    "PromptWindowsScreenNo": 3000, /* 提示屏-提示时间 */
+    "EBlackboardWindowsScreenNo": 3000 /* 电子白板屏-提示时间 */
+  },
+
+  "Debug": {
+    "CameraLimit": 20, /* 用于限制主机的最大摄像头数 */
+    "ADMIN_VIDEO_TEST": false,
+    "ADMIN_VIDEO_TEST_CLASSROOM_NAME": "调试用虚拟教室"
+  }
+}
